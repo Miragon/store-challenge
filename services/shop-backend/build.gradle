@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+    alias(libs.plugins.springDependencyManagement)
+    alias(libs.plugins.springBoot)
+}
+
+dependencies {
+    implementation(libs.bundles.webService)
+    implementation(libs.bundles.security)
+    implementation(libs.bundles.database)
+    implementation(libs.bundles.openApi)
+    implementation(libs.bundles.flyway)
+
+    // Lombok for Java code ergonomics
+    compileOnly(libs.lombok)
+    annotationProcessor(libs.lombok)
+    testCompileOnly(libs.lombok)
+    testAnnotationProcessor(libs.lombok)
+
+    testImplementation(libs.bundles.commonTest)
+    testRuntimeOnly(libs.h2)
+}
+
+tasks.test {
+    useJUnitPlatform()
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}

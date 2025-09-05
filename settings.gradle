@@ -1,0 +1,13 @@
+/*
+ * This settings file defines the build composition (projects) and repositories.
+ */
+
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+}
+
+include("services:shop-backend")
+
+rootProject.name = "retail-ddd-example"
