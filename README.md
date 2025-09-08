@@ -24,14 +24,14 @@ Zusätzlich sollen die **folgenden zwei Bugs** im bestehenden Code identifiziert
 
 ## ⚙️ Quick Start
 
-Um die Anwendung zu starten, befolge die folgenden Schritte:
+Um die Anwendung zu starten, führe die beigefügten Run-Configs in IntelliJ aus oder befolge die folgenden Schritte:
 
 1. Datenbank starten \
 `cd stack && docker compose up`
 2. Backend starten \
-`./gradlew bootRun` (Sinnvoller ist es, die beigefügte Run-Config in IntelliJ auszuführen)
+`cd services/shop-backend && ./gradlew bootRun`
 3. Frontend starten \
-`cd services && npm install && npm run dev`
+`cd services/shop-frontend && npm install && npm run dev`
 
 Anschließend ist die Anwendung unter **[http://localhost:5173](http://localhost:5173)** erreichbar.
 
@@ -39,7 +39,9 @@ Anschließend ist die Anwendung unter **[http://localhost:5173](http://localhost
 
 ## 📋 Abgabe
 
-Bitte forke dieses Repository und implementiere die Aufgabe in deinem Fork. Zur Abgabe beachte bitte Folgendes:
+Bitte forke dieses Repository und implementiere die Aufgabe in deinem Fork. 
+Stelle dein Repository auf `private` und erlaube uns den Zugriff auf deinen Fork.
+Zur Abgabe beachte bitte Folgendes:
 
 * Bitte schicke uns den GitHub‑Link zu deinem Fork spätestens zwei Tage vor dem Gespräch zu.
 * Passe die **README.md** in deinem Fork an und dokumentiere dort:

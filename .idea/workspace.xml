@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac2473ba-74c1-4fbe-a9ba-e526ed2dd1a6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/services/shop/shop-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/services/shop/shop-frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/stack__Compose_Deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/DeliveryBackend.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/WarehouseBackend.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,26 +43,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "alex-praschek"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alex-praschek&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Miragon/retail-ddd-example",
-    "accountId": "5c3f97f5-d60e-4e71-b4c8-0bc0a9de1ecf"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Miragon/retail-ddd-example&quot;,
+    &quot;accountId&quot;: &quot;5c3f97f5-d60e-4e71-b4c8-0bc0a9de1ecf&quot;
   }
-}]]></component>
+}</component>
   <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.12-bin/cetblhg4pflnnks72fxwobvgv/gradle-8.12" javaHome="$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-21.0.2/Contents/Home" gradleVersion="8.12" />
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="32ISAmUR6gEY8WksXi0dTMbrnIA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -65,7 +71,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Docker.stack: Compose Deployment.executor": "Run",
     "Gradle.Build retail-ddd-example.executor": "Run",
+    "Gradle.Build store-challenge.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -73,8 +81,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.DeliveryBackend.executor": "Run",
-    "Spring Boot.ShopBackend.executor": "Debug",
+    "Spring Boot.ShopBackend.executor": "Run",
     "Spring Boot.WarehouseBackend.executor": "Run",
     "database.data.extractors.current.export.id": "SQL-Insert-Multirow.sql.groovy",
     "database.data.extractors.current.id": "SQL-Insert-Multirow.sql.groovy",
@@ -88,8 +97,12 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
     "npm.ShopFrontend.executor": "Debug",
+    "npm.dev.executor": "Run",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "junie.project.settings",
+    "settings.editor.selected.configurable": "vcs.Git",
     "to.speed.mode.migration.done": "true",
     "ts.external.directory.path": "/Users/alexander/Miragon/Code/miragon/retail-ddd-example/services/shop-frontend/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
@@ -114,29 +127,29 @@
         <entry key="SpringBootApplicationConfigurationType">
           <value>
             <map>
-              <entry key="DeliveryBackend" value="STOPPED" />
               <entry key="ShopBackend" value="STOPPED" />
-              <entry key="WarehouseBackend" value="STOPPED" />
             </map>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ShopBackend">
-    <configuration name="ShopMcpClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="retail-ddd-example.services.shop.shop-mcp-client.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="io.miragon.mcp.ShopMcpClientApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="npm.ShopFrontend">
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Docker.stack: Compose Deployment" />
+      <item itemvalue="npm.ShopFrontend" />
+      <item itemvalue="Spring Boot.ShopBackend" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
       </set>
     </attachedChunks>
   </component>
@@ -148,6 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1757106451232</updated>
       <workItem from="1757106452353" duration="14471000" />
+      <workItem from="1757307635569" duration="1012000" />
     </task>
     <servers />
   </component>
