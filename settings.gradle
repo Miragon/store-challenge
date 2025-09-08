@@ -10,4 +10,4 @@ dependencyResolutionManagement {
 
 include("services:shop-backend")
 
-rootProject.name = "retail-ddd-example"
+rootProject.name = "store-challenge"
