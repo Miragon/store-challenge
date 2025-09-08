@@ -39,8 +39,9 @@ Anschließend ist die Anwendung unter **[http://localhost:5173](http://localhost
 
 ## 📋 Abgabe
 
-Bitte forke dieses Repository und implementiere die Aufgabe in deinem Fork. 
-Stelle dein Repository auf `private` und erlaube uns den Zugriff auf deinen Fork.
+Bitte clone dieses Repository und implementiere die Aufgabe bei dir lokal. 
+Pushe anschließend die Lösung auf deinen Github-Account (bitte nicht forken. public forks kann man nicht private stellen).
+Stelle dein Repository auf `private` und erlaube uns den Zugriff darauf.
 Zur Abgabe beachte bitte Folgendes:
 
 * Bitte schicke uns den GitHub‑Link zu deinem Fork spätestens zwei Tage vor dem Gespräch zu.
